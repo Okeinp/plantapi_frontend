@@ -1,6 +1,6 @@
 # PlantApi Frontend
 
-¡Bienvenido al proyecto de PlantApi! Este proyecto está construido usando React y Vite, proporcionando una experiencia de desarrollo rápida y moderna.
+¡Bienvenido al proyecto de PlantApi! Este proyecto está construido usando React y Vite.
 
 ## Acerca de
 
