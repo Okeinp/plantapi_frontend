@@ -1,0 +1,42 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f2e9; /* Change background color to greenish white */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #333;
+  position: relative;
+}
+
+.home-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #013220; /* Change title color to dark green */
+}
+
+.home-container p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.home-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-container li {
+  margin: 10px 0;
+}
+
+.home-container a {
+  text-decoration: none;
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.home-container a:hover {
+  text-decoration: underline;
+  color: #2e7d32;
+}
+

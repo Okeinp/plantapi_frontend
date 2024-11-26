@@ -1,0 +1,5 @@
+export { Home } from './Home.jsx'
+export { Register } from './Register.jsx'
+export { Login } from './Login.jsx'
+export { Plantas } from './Plantas.jsx'
+export { Cuidados } from './Cuidados.jsx'

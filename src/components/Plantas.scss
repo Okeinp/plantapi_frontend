@@ -1,0 +1,121 @@
+.plantas-container {
+  padding: 2rem;
+  background-color: #e0f2e9; /* Change background color to greenish white */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plantas-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.plantas-form input {
+  padding: 0.5rem;
+  border: 1px solid #888;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #000; /* Change text color to black */
+}
+
+.plantas-form button {
+  padding: 0.5rem;
+  background-color: #013220; /* Change button background color to dark green */
+  color: #e0f2e9; /* Change button text color to greenish white */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.plantas-form button:hover {
+  background-color: #2e7d32;
+}
+
+.plantas-list {
+  list-style: none;
+  padding: 0;
+}
+
+.plantas-list-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.plantas-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.plantas-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.plantas-list ul li {
+  padding: 0.3rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plantas-list ul li span {
+  flex: 1;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.plantas-list button {
+  padding: 0.3rem 0.5rem;
+  background-color: #013220; /* Change button background color to dark green */
+  color: #e0f2e9; /* Change button text color to greenish white */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.plantas-list button:hover {
+  background-color: #2e7d32;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cuidados-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuidados-list-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 0.3rem;
+  background-color: #f0f0f0;
+}
+
+.cuidados-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.cuidados-list-item span {
+  flex: 1;
+  text-align: center;
+  padding: 0 0.5rem;
+}
